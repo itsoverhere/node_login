@@ -1,0 +1,9 @@
+p {
+    background-color:bisque;
+}
+
+div.error{
+  background-color: salmon;
+  color:white;
+  padding:10px;
+}

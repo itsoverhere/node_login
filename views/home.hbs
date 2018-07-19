@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        p {
+            font-size: {{fontsize}}pt;
+        }
+
+    </style>
+</head>
+
+<body>
+    <p>Hello, {{username}}. </p>
+
+    <br>
+    <br>
+
+    <form action="preferences">
+        <select name="fontsize">
+            <option value="12">12</option>
+            <option value="16">16</option>
+            <option value="24">24</option>
+            <option value="36">36</option>
+            <option value="48">48</option>
+        </select>
+        <input type="submit">
+    </form>
+
+    <br>
+    <br>
+
+    <form action="logout">
+        <input type="submit" value="logout">
+    </form>
+</body>
+
+</html>
